@@ -17,6 +17,6 @@ entries:
     - https://github.com/trinodb/trino/tree/master/core/docker
     type: application
     urls:
-    - https://github.com/kiranrajkher/k8s-helm/releases/ann-trino-0.9.0.tgz
+    - https://github.com/kiranrajkher/k8s-helm/ann-trino-0.9.0.tgz
     version: 0.9.0
 generated: "2023-02-16T01:06:50.746681+05:30"
