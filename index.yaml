@@ -1,0 +1,22 @@
+apiVersion: v1
+entries:
+  ann-trino:
+  - apiVersion: v2
+    appVersion: "375"
+    created: "2023-02-16T01:06:50.747334+05:30"
+    description: Fast distributed SQL query engine for big data analytics that helps
+      you explore your data universe
+    digest: edc47b80d7b65276fb8d7ac75804c456dad7bbef588c692efa8e1e03c58f6528
+    home: https://trino.io/
+    icon: https://trino.io/assets/trino.png
+    maintainers:
+    - name: Trino community
+    name: ann-trino
+    sources:
+    - https://github.com/trinodb/charts
+    - https://github.com/trinodb/trino/tree/master/core/docker
+    type: application
+    urls:
+    - https://github.com/kiranrajkher/k8s-helm/ann-trino-0.9.0.tgz
+    version: 0.9.0
+generated: "2023-02-16T01:06:50.746681+05:30"

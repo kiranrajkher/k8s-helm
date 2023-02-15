@@ -1,0 +1,15 @@
+mkdir charts && cd charts
+echo -e "User-Agent: *\nDisallow: /" > robots.txt
+
+copy your <custom-chart-folder> into charts folder 
+
+Helm package charts/<custom-chart-folder>
+    EX:- Helm package charts/trino/
+
+Helm repo index --url "<repo url>" .
+    EX:- Helm repo index --url "https://github.com/kiranrajkher/k8s-helm/" .
+
+
+However, you can use --merge flag to add new charts to an existing index incrementally.yaml:
+    helm repo index --url <github_repository_path> --merge index.yaml . 
+
